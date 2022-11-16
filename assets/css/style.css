@@ -1,0 +1,110 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    background-color: black;
+}
+
+.title .header {
+    background-image: url("../../assets/imgs/bg-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 0px;
+    height: 1200px;
+}
+
+.header h1 {
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    font-size: xx-large;
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+.description {
+    display: flow-root;
+}
+
+.description .caracteristicas img {
+    float: right;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 600px;
+}
+
+.features p {
+    display: block;
+    color: white;
+    width: 30%;
+    padding-top: 10%;
+    padding-left: 10%;
+    font-weight: 300;
+}
+
+.features1 p {
+    display: block;
+    color: white;
+    width: 30%;
+    padding-top: 1%;
+    padding-left: 10%;
+    font-weight: 300;
+}
+
+.drop {
+    background-color:rgba(30, 26, 19, 0.85 );
+    display: flow-root;
+    color: white;
+    height: 400px;
+}
+
+.drop h2 {
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    font-size: x-large;
+    padding: 2em;
+}
+
+.drop .drops {
+    float: left;
+    width: 33%;
+    text-align: center;
+    font-weight: 400;
+}
+
+.drop .drops i {
+    padding: 20px;
+}
+
+.gallery {
+    display: flow-root;
+    margin: auto;
+}
+
+.photo img {
+    float: left;
+    width: 30%;
+    height: 360px;
+    padding: 80px 30px;
+}
+
+.footer {
+    background-color: rgba(30, 26, 19, 0.85 );
+    color: white;
+    height: 80px;
+    padding-top: 80px;
+    text-align: center;
+    font-size: larger;
+    font-weight: 300;
+}
+
+.footer a {
+    font-weight: 300;
+}
+
+footer a:hover {
+    color: darkolivegreen;
+}
